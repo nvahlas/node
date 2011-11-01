@@ -13,8 +13,12 @@ var server = http.createServer(function (req, res) {
 	if (err) {
 		throw err;
 	}
+	var txt = '';
+	for ( var r in results ) {
+		txt += i;
+	}
 	res.writeHead(200, { "Content-Type": "text/plain" })
-	res.end("Hello world:\n first joyent, node, github app :)");
+	res.end("Hello world:\n " + txt);
   });
 });
  
