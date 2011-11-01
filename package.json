@@ -5,6 +5,7 @@
     "start": "node src/hello.js"
   },
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "mysql": "latest"
   }
 }
