@@ -7,5 +7,15 @@
   "dependencies": {
     "express": "latest",
     "mysql": "latest"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "author": "Nicolas Vahlas <nico@vahlas.eu> (http://nico.vahlas.eu)",
+  "description": "Some tests with nodejs, joyent smart machines, github, mysql ...",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nvahlas/node.git"
   }
 }
