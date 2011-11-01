@@ -15,7 +15,7 @@ var server = http.createServer(function (req, res) {
 	}
 	var txt = '';
 	for ( var r in results ) {
-		txt += r;
+		txt += results[r];
 	}
 	res.writeHead(200, { "Content-Type": "text/plain" })
 	res.end("Hello world:\n" + txt);
