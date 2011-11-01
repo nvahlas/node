@@ -4,5 +4,7 @@
   "scripts": {
     "start": "node src/hello.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "latest"
+  }
 }
